@@ -92,8 +92,8 @@ input {
 	PRODUCTS
 *********************************/
 .products {
-	width: 36rem;
-	padding: 3em 2em;
+	width: 34rem;
+	padding: 3em 1.7em;
 	margin: 2.7rem 0;
 	background-color: var(--clr-background-products);
 	border-radius: 12px;
@@ -138,7 +138,7 @@ input {
 	font-size: 1.6rem;
 }
 .product__counter .symbol {
-	padding: .5em .8em;
+	padding: .4em .6em;
 	background-color: var(--clr-background-symbol);
 	border-radius: 6px;
 }
