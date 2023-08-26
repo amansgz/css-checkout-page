@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./assets/devchallenges.png">
+  <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/">
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+  <!-- ICONS -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- STYLES -->
+  <link rel="stylesheet" href="./styles/index.css">
+  <title>Checkout Page | DevChallenges</title>
+</head>
+<body>
+  <section class= "section-checkout">
+    <div><!-- container -->
+      <h1>
+        Checkout
+      </h1>
+      <!-- ITEM PRODUCTS -->
+      <div class="products">
+        <!-- item 1 -->
+        <div class= "product__item">
+          <picture>
+            <img src= "./assets/photo1.png" alt= "Vintage Backbag">
+          </picture>
+          
+          <div class= "product__prices">
+            <h2>Vintage Backbag</h2>
+            <div>
+              <span class= "highlighted">$54.99</span>
+              <span class= "line-through">$94.99</span>
+            </div>
+
+            <div class= "product__counter">
+              <span class= "symbol">+</span>
+              <span>1</span>
+              <span class= "symbol">-</span>
+            </div>
+          </div>  
+        </div>
+        <!-- item 2 -->
+        <div class= "product__item">
+          <picture>
+            <img src= "./assets/photo2.png" alt= "Levi Shoes">
+          </picture>
+          <div class= "product__prices">
+            <h2>Levi Shoes</h2>
+            <div>
+              <span class= "highlighted">$74.99</span>
+              <span class= "line-through">$124.99</span>
+            </div>  
+            <div class= "product__counter">
+              <span class= "symbol">+</span>
+              <span>1</span>
+              <span class= "symbol">-</span>
+            </div>
+          </div>
+        </div>
+
+        <div class= "product__details">
+          <div class= "shipping">
+            <span class= "title">Shipping</span>
+            <span class= "price">$19</span>
+          </div>
+          <div class= "total">
+            <span class= "title">Total</span>
+            <span class= "price">$148.98</span>
+          </div>  
+        </div>
+        </div>
+      </div>
+
+      <!-- ITEM FORM -->
+      <div class= "form">
+        <div class= "contact">
+          <h2>
+            Contact Information
+          </h2>
+          
+          <label>Email</label>
+          <input type="email" placeholder= "Enter your email...">
+          
+          <label>Phone</label>
+          <input type="phone" placeholder= "Enter your phone...">
+        </div>
+        <div>
+          <h2>
+            Shipping address 
+          </h2>  
+        
+          <label>Full name</label>
+          <input type="text" placeholder= "Enter your full name...">
+          
+          <label>Address</label>
+          <input type="text" placeholder= "Your address...">
+        
+          <label>City</label>
+          <input type="text" placeholder= "Your city...">
+          <!-- 
+            Country
+            (select) icon Your country... 
+          -->
+          <label for="country">Country</label>
+          <select name="countries" id="country">
+            <option value= "arg">Your country...</option>
+            <option value= "arg">Argentina</option>
+            <option value= "den">Denmark</option>
+            <option value= "fr">France</option>
+            <option value= "ita">Italy</option>
+            <option value= "usa">United States</option>
+          </select>
+        
+          <label>Postal Code</label>
+          <input type="number" placeholder= "Your postal code...">
+    
+          <label>
+            <input type="checkbox" id="" value="">
+            Save the information for next time
+          </label>
+        </div>  
+        <input type="submit" value="Continue">
+      </div>
+    </div>
+  </section>
+</body>
+</html>
