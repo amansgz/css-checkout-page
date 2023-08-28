@@ -77,63 +77,130 @@
 
         <!-- ITEM FORM -->
         <form action="#" class= "form">
+
+          <!-- Contact -->
           <div class= "form__contact">
             <h2 class= "form__title">
               Contact Information
             </h2>
             
-            <label>Email</label>
-            <i class="fa-solid fa-envelope icon"></i>
-            <input type="email" placeholder= "Enter your email..." class="input__field">
+            <label for= "email">Email</label>
+            <div class= "input__container">
+              <figure class="icon">
+                <img src= "./assets/mail.svg" alt="">
+              </figure>
+              <input class="input__field"
+                type="email"
+                name= "email"
+                id= "email"
+                placeholder= "Enter your email..."
+                required>
+            </div>  
             
-            <label>Phone</label>
-            <i class="fa-solid fa-phone icon"></i>
-            <input type="phone" placeholder= "Enter your phone..." class="input__field">
+            <label for= "phone">Phone</label>
+            <div class= "input__container">
+              <figure class="icon">
+                <img src= "./assets/call.svg" alt="">
+              </figure>
+              <input class="input__field"
+                type="tel"
+                name= "phone"
+                id= "phone"
+                placeholder= "Enter your phone..." 
+                required>
+            </div>  
           </div>
 
+          <!-- Shipping -->
           <div class= "form__shipping">
             <h2 class= "form__title">
               Shipping address 
             </h2>  
           
-            <label>Full name</label>
-            <i class="fa-solid fa-user icon"></i>
-            <input type="text" placeholder= "Enter your full name..." class="input__field">
+            <label for= "fullName">Full name</label>
+            <div class= "input__container">
+              <figure class="icon">
+                <img src= "./assets/account_circle.svg" alt="">
+              </figure>  
+              <input class="input__field"
+                type= "text" 
+                name= "fullName"
+                id= "fullName"
+                placeholder= "Enter your full name..."
+                required>
+            </div>  
             
-            <label>Address</label>
-            <i class="fa-solid fa-house icon"></i>
-            <input type="text" placeholder= "Your address..." class="input__field">
+            <label for= "address">Address</label>
+            <div class= "input__container">
+              <figure class="icon">
+                <img src= "./assets/home.svg" alt="">
+              </figure>
+              <input class="input__field"
+                type="text" 
+                name= "address"
+                id= "address"
+                placeholder= "Your address..." 
+                required>
+            </div>  
           
-            <label>City</label>
-            <i class="fa-solid fa-city icon"></i>
-            <input type="text" placeholder= "Your city..." class="input__field">
+            <label for= "city">City</label>
+            <div class= "input__container">
+              <figure class="icon">
+                <img src= "./assets/location_city.svg" alt="">
+              </figure>
+              <input class="input__field"
+                type= "text" 
+                name= "city"
+                id= "city"
+                placeholder= "Your city..." 
+                required>
+            </div>
           
             <div class= "form__row">
               <div>
                 <label for="country">Country</label>
-                <i class="fa-solid fa-earth-americas icon"></i>
-                <select name="countries" id="country">
-                  <option value= "opt">Your country...</option>
-                  <option value= "arg">Argentina</option>
-                  <option value= "den">Denmark</option>
-                  <option value= "fr">France</option>
-                  <option value= "ita">Italy</option>
-                  <option value= "usa">United States</option>
-                </select>
-              </div>  
-              <div>
-                <label>Postal Code</label>
-                <i class="fa-solid fa-inbox icon"></i>
-                <input type="text" placeholder= "Your postal code..." class="input__field">
+                <div class= "input__container">
+                  <figure class="icon">
+                    <img src= "./assets/public.svg" alt="">
+                  </figure>
+                  <select name="countries" id="country">
+                    <option value= "opt">Your country...</option>
+                    <option value= "arg">Argentina</option>
+                    <option value= "den">Denmark</option>
+                    <option value= "fr">France</option>
+                    <option value= "ita">Italy</option>
+                    <option value= "usa">United States</option>
+                  </select>
+                </div>
               </div>
-            </div>
 
-            <label for= "save" class= "checkbox__save">
-              <input type="checkbox" id="save" value="">
+              <div>
+                <label for= "postalCode">Postal Code</label>
+                <div class= "input__container">
+                  <figure class="icon">
+                    <img src= "./assets/markunread_mailbox.svg" alt="">
+                  </figure>
+                  <input class="input__field"
+                    type="text" 
+                    name= "postalCode"
+                    id= "postalCode"
+                    placeholder= "Your postal code..."
+                    required>
+                </div>  
+              </div>
+            </div><!-- end of form__row -->
+
+            <label for= "saveInfo" class= "checkbox__save">
+              <input type="checkbox" 
+              name= "saveInfo"
+              id="saveInfo">
               Save the information for next time
             </label>
-          </div>  
-          <input type="submit" value="Continue" class= "input__submit">
+          </div><!-- end of Shipping -->  
+
+          <input class= "input__submit"
+            type="submit" 
+            value="Continue">
         </form>
       </div>  
     </div>
