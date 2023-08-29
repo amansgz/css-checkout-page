@@ -231,9 +231,8 @@ select {
 }
 
 .input__submit {
-	width: 150px;
 	justify-self: end;
-	padding: .8em;
+	padding: .8em 1.5em;
 	margin: 1rem 0;
 	background-color: var(--clr-orange);
 	color: #FFF;
