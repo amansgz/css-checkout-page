@@ -6,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="">
+    <a href="https://amansgz.github.io/css-checkout-page/">
       Demo
     </a>
     <span> | </span>
-    <a href="">
+    <a href="https://devchallenges.io/solutions/iGVpHXpuwy222NrMQqzS">
       Solution
     </a>
     <span> | </span>
