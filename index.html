@@ -9,8 +9,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
-  <!-- ICONS -->
-  <script src="https://kit.fontawesome.com/1fbae0c810.js" crossorigin="anonymous"></script>
+  <!-- SCRIPTS -->
+  <script src= "./scripts/index.js" defer></script>
   <!-- STYLES -->
   <link rel="stylesheet" href="./styles/index.css">
   <title>Checkout Page | DevChallenges</title>
@@ -18,7 +18,7 @@
 <body>
   <section class= "section-checkout">
     <div class= "container"><!-- container -->
-      <h1>
+      <h1 class= "container__title">
         Checkout
       </h1>
       <div class= "container__content">
@@ -38,9 +38,13 @@
               </div>
 
               <div class= "product__counter">
-                <span class= "symbol">-</span>
-                <span>1</span>
-                <span class= "symbol">+</span>
+                <span class= "decrement-count">
+                    -
+                  </span>
+                <span class= "counter"></span>
+                <span class= "increment-count">
+                  +
+                </span>
               </div>
             </div>  
           </div>
@@ -56,9 +60,13 @@
                 <span class= "line-through">$124.99</span>
               </div>  
               <div class= "product__counter">
-                <span class= "symbol">-</span>
-                <span>1</span>
-                <span class= "symbol">+</span>
+                <span class= "decrement-count">
+                  -
+                </span>
+                <span class= "counter"></span>
+                <span class= "increment-count">
+                  +
+                </span>
               </div>
             </div>
           </div>
@@ -76,7 +84,7 @@
         </div>
 
         <!-- ITEM FORM -->
-        <form action="#" class= "form">
+        <form action="results.html" method="get" class= "form">
 
           <!-- Contact -->
           <div class= "form__contact">
@@ -165,7 +173,7 @@
                   </figure>
                   <select name="countries" id="country">
                     <option value= "opt">Your country...</option>
-                    <option value= "arg">Argentina</option>
+                    <option value= "arg">Argentine</option>
                     <option value= "den">Denmark</option>
                     <option value= "fr">France</option>
                     <option value= "ita">Italy</option>
@@ -199,8 +207,8 @@
           </div><!-- end of Shipping -->  
 
           <input class= "input__submit"
-            type="submit" 
-            value="Continue">
+            type= "submit" 
+            value= "Continue">
         </form>
       </div>  
     </div>
