@@ -1,10 +1,23 @@
-<h1 align="center">Checkout Page</h1>
+# Checkout Page
 
-<div align="center">
-  This application/site was created as a submission to <a href="https://devchallenges.io/paths/responsive-web-developer">Devchallenges</a> 
-</div>
+## The challenge
+Create a checkout page following the figma design, input types and validation.
 
-<div align="center">
+## User story
+- I can see a page following the given design
+- I can input email, phone, full name, address, city, country, and postal code
+- I can input the number of items
+- I can select at least 3 countries from the dropdown
+- When I click submit button or press enter, I can see a warning if validation fails
+- When I click submit button or press enter, I can see a successful alert if validation succeeds
+
+
+## Built With
+
+- CSS
+
+
+<div>
   <h3>
     <a href="https://amansgz.github.io/css-checkout-page/">
       Demo
@@ -22,22 +35,4 @@
 
 ![screenshot](./assets/preview.png)
 
-## The challenge
-
-- User story: I can see a page following the given design
-- User story: I can input email, phone, full name, address, city, country, and postal code
-- User story: I can input the number of items
-- User story: I can select at least 3 countries from the dropdown
-- User story: When I click submit button or press enter, I can see a warning if validation fails
-- User story: When I click submit button or press enter, I can see a successful alert if validation succeeds
-
-
-## Built With
-
-- CSS
-
-
-## Author
-
-- GitHub [@amansgz](https://github.com/amansgz)
-- DevChallenges [@amansgz](https://devchallenges.io/portfolio/amansgz)
+This application/site was created as a submission to <a href="https://devchallenges.io/paths/responsive-web-developer">Devchallenges</a> 
