@@ -22,17 +22,9 @@ Create a checkout page following the figma design, input types and validation.
     <a href="https://amansgz.github.io/css-checkout-page/">
       Demo
     </a>
-    <span> | </span>
-    <a href="https://devchallenges.io/solutions/iGVpHXpuwy222NrMQqzS">
-      Solution
-    </a>
-    <span> | </span>
-    <a href="https://devchallenges.io/challenges/0J1NxxGhOUYVqihwegfO">
-      Challenge
-    </a>
   </h3>
 </div>
 
 ![screenshot](./assets/preview.png)
 
-This application/site was created as a submission to <a href="https://devchallenges.io/paths/responsive-web-developer">Devchallenges</a> 
+This application/site was created as a submission to <a href="https://legacy.devchallenges.io/paths/responsive-web-developer">Devchallenges</a> 
