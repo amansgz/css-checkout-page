@@ -1,23 +1,23 @@
-const counter = document.querySelectorAll('.counter');
-const incrementCount = document.querySelectorAll('.increment-count');
-const decrementCount = document.querySelectorAll('.decrement-count');
+const count = document.querySelectorAll(".count");
+const incrementBtn = document.querySelectorAll(".increment-btn");
+const decrementBtn = document.querySelectorAll(".decrement-btn");
 
-counter.forEach((item, index) => {
-  item.textContent = 1;  
+count.forEach((item) => {
+  item.textContent = 0;
 });
 
-incrementCount.forEach((item, index) => {
-  item.addEventListener('click', () => {
-    counter[index].textContent++; 
-  })
+incrementBtn.forEach((item, index) => {
+  item.addEventListener("click", () => {
+    count[index].textContent++;
+  });
 });
 
-decrementCount.forEach((item, index) => {
-  item.addEventListener('click', () => {
-    if(counter[index].textContent == 0) {
-      counter[index].textContent=0; 
+decrementBtn.forEach((item, index) => {
+  item.addEventListener("click", () => {
+    if (count[index].textContent == 0) {
+      count[index].textContent = 0;
     } else {
-      counter[index].textContent--; 
+      count[index].textContent--;
     }
-  })
+  });
 });
