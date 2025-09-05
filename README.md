@@ -1,30 +1,36 @@
 # Checkout Page
 
-## The challenge
-Create a checkout page following the figma design, input types and validation.
+This is a responsive checkout page built as part of the Legacy DevChallenges front-end development challenge. The project focuses on creating a clean and functional user interface for an e-commerce checkout process.
 
-## User story
-- I can see a page following the given design
-- I can input email, phone, full name, address, city, country, and postal code
-- I can input the number of items
-- I can select at least 3 countries from the dropdown
-- When I click submit button or press enter, I can see a warning if validation fails
-- When I click submit button or press enter, I can see a successful alert if validation succeeds
-
+---
 
 ## Built With
 
-- CSS
+- **HTML5:** For the semantic structure of the page.
+- **CSS3:** For styling, including the use of modern features like CSS Custom Properties (`:root`) and Flexbox for a responsive layout.
+- **JavaScript:** (Optional, depending on implementation). For handling product quantity updates.
 
+---
 
-<div>
-  <h3>
-    <a href="https://amansgz.github.io/css-checkout-page/">
-      Demo
-    </a>
-  </h3>
-</div>
+## Features
 
-![screenshot](./assets/preview.png)
+- **Responsive Design:** The layout adapts to different screen sizes, providing an optimal viewing experience on both desktop and mobile devices.
+- **Product Section:** Displays a list of products with their images, names, prices, and a quantity counter.
+- **Order Summary:** Calculates and displays shipping costs and the total order amount.
+- **Contact & Shipping Form:** A user-friendly form with fields for contact information and shipping address.
+- **Input with Icons:** Form fields include relevant icons for a better user experience.
 
-This application/site was created as a submission to <a href="https://legacy.devchallenges.io/paths/responsive-web-developer">Devchallenges</a> 
+---
+
+## Links
+
+- **Live Site:** [Checkout Page](https://amansgz.github.io/css-checkout-page/)
+
+---
+
+## Credits and Acknowledgements
+
+This project was built as a solution to a design challenge.
+
+- **Design:** Legacy Devchallenges
+- **Coded by:** @amansgz
