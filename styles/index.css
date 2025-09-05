@@ -103,7 +103,7 @@ img {
   font-weight: bold;
   margin: 1rem 0;
 }
-.highlighted {
+.sale-price {
   font-size: 1.2rem;
   color: var(--clr-accent);
 }
